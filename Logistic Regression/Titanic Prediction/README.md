@@ -34,7 +34,16 @@ The dataset consists of three files:
 * Scikit-learn
 
 ---
+## Workflow
 
+1. Data loading and exploration
+2. Data cleaning and preprocessing
+3. Feature selection
+4. Model training
+5. Prediction on test data
+6. Submission file generation
+
+---
 ## Data Preprocessing
 
 * Handled missing values:
@@ -49,28 +58,9 @@ The dataset consists of three files:
   * `Embarked` → S: 0, C: 1, Q: 2
 
 ---
-
 ## Model Used
 
 * Logistic Regression
-
----
-
-## Workflow
-
-1. Data loading and exploration
-2. Data cleaning and preprocessing
-3. Feature selection
-4. Model training
-5. Prediction on test data
-6. Submission file generation
-
----
-
-## 📊 Result
-
-* Achieved a **Kaggle Public Score of 0.76315 (~76% accuracy)**
-* The model successfully predicts survival outcomes for unseen data
 
 ---
 
@@ -87,5 +77,19 @@ The dataset consists of three files:
 ## 📁 Output
 
 * `submission.csv` → Final predictions ready for Kaggle submission
+
+## 📊 Result
+
+* Achieved a **Kaggle Public Score of 0.76315 (~76% accuracy)**
+* The model successfully predicts survival outcomes for unseen data
+
+---
+
+## 🏆 Achievements
+
+- Earned **"Getting Started Competitor" Badge** on Kaggle  
+- Successfully submitted a machine learning model in a real-world competition  
+- Gained hands-on experience in end-to-end ML workflow  
+
 
 ---
